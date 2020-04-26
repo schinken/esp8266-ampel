@@ -23,7 +23,6 @@ unsigned long sceneSeconds;
 unsigned long lastMillis;
 
 uint8_t ampelMode = 0;
-uint8_t discoMode = 0;
 
 const uint8_t LED[] = {D7, D6, D5};
 
