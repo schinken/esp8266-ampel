@@ -17,7 +17,7 @@ ESP8266WebServer webServer(80);
 
 String currentScene = "manual";
 
-uint8_t currentManualLed = 0;
+uint8_t currentManualLed = -1;
 
 unsigned long sceneSeconds;
 unsigned long lastMillis;
